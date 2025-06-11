@@ -2,7 +2,7 @@
 
 A clean and functional ToDo list app built with Flutter. This app allows users to create, update, delete, and manage their daily tasks with a smooth and modern UI.
 
----
+
 
 ## 📱 Features
 
@@ -12,7 +12,7 @@ A clean and functional ToDo list app built with Flutter. This app allows users t
 - ✅ Responsive UI
 - ✅ Beautiful design using Flutter's Material Components
 
----
+
 
 ## 🛠️ Built With
 
@@ -20,13 +20,9 @@ A clean and functional ToDo list app built with Flutter. This app allows users t
 - Dart
 - Provider (optional for state management)
 
----
 
-## 📷 Screenshots
 
-> (Add your app screenshots here once available)
 
----
 
 ## 🚀 Getting Started
 
