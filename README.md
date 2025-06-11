@@ -1,16 +1,73 @@
-# todo_app
+# 📝 ToDo App
 
-A new Flutter project.
+A clean and functional ToDo list app built with Flutter. This app allows users to create, update, delete, and manage their daily tasks with a smooth and modern UI.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Add new tasks
+- ✅ Mark tasks as completed
+- ✅ Delete tasks
+- ✅ Responsive UI
+- ✅ Beautiful design using Flutter's Material Components
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Built With
+
+- [Flutter](https://flutter.dev/)
+- Dart
+- Provider (optional for state management)
+
+---
+
+## 📷 Screenshots
+
+> (Add your app screenshots here once available)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Flutter SDK installed
+- Android Studio or VS Code
+- A physical/emulated device
+
+### Installation
+
+```bash
+git clone https://github.com/Rojina-Sharma99/ToDo_flutter.git
+cd ToDo_flutter
+flutter pub get
+flutter run
+
+📁 Project Structure
+css
+Copy
+Edit
+lib/
+├── main.dart
+├── models/
+├── pages/
+├── widgets/
+└── services/
+
+
+📦 Future Improvements
+Firebase integration for cloud sync
+
+User login & registration
+
+Task categories and filters
+
+Notification reminders
+
+🙌 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+🧑‍💻 Author
+@Rojina-Sharma99
+
