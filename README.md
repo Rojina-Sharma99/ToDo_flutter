@@ -46,10 +46,9 @@ Copy
 Edit
 lib/
 ├── main.dart
-├── models/
-├── pages/
-├── widgets/
-└── services/
+├── data/
+├── pages/util
+
 
 
 📦 Future Improvements
