@@ -77,9 +77,8 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: const Color.fromARGB(255, 236, 234, 239),
-        
         appBar: AppBar(
-          title: Text("TO-DO LIST"),
+          title: Text("TICK-TRACK"),
           backgroundColor: const Color.fromARGB(255, 146, 147, 209),
           elevation: 0,
           titleTextStyle: TextStyle(
