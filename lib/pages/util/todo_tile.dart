@@ -33,7 +33,7 @@ class TODOTile extends StatelessWidget {
         child: Container(
           padding: EdgeInsets.all(24),
           decoration: BoxDecoration(
-            color: Colors.deepPurple[300],
+            color: const Color.fromARGB(255, 117, 119, 224),
             borderRadius: BorderRadius.circular(10),
           ),
           child: Row(
@@ -46,11 +46,14 @@ class TODOTile extends StatelessWidget {
               ),
 
               //task name
-              Text(taskName,
-                  style: TextStyle(
-                      decoration: taskCompleted
-                          ? TextDecoration.lineThrough
-                          : TextDecoration.none)),
+              Text(
+                taskName,
+                style: TextStyle(
+                    color: const Color.fromARGB(255, 238, 233, 233),
+                    decoration: taskCompleted
+                        ? TextDecoration.lineThrough
+                        : TextDecoration.none),
+              ),
             ],
           ),
         ),
