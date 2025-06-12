@@ -18,7 +18,7 @@ class DialogBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-        backgroundColor: Colors.deepPurple[200],
+        backgroundColor: const Color.fromARGB(255, 202, 202, 223),
         content: Container(
           height: 120,
           child: Column(
@@ -40,7 +40,7 @@ class DialogBox extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     //save button
-                    MyButton(text: "Save", onPressed: onSave),
+                    MyButton(text: "Save", onPressed: onSave, ),
                     //get gap in between save and cancel button
                     const SizedBox(
                       width: 6,
